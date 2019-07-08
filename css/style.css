@@ -1,0 +1,47 @@
+body {
+  background:url("background/cards_bg.jpg");
+}
+#title {
+  font-size:6em;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  color:#ff0000;
+  text-emphasis
+  text-shadow: 8px 8px 8px darkblue;
+  font-family: 'Eater', cursive;
+}
+#board{
+  display:flex;
+  justify-content:center;
+  
+}
+.boardSlot{
+  padding-left:25px;
+  padding-right:25px;
+}
+.card:hover {
+  cursor: pointer;
+}
+#block {
+  background:lightsalmon;
+  border:2px black solid;
+  border-width:3px;  
+  border-style:groove;
+  border-radius:25px;
+  height:600px;
+}
+#betAmount{
+  font-size:1.7em;  
+  border-width:3px;  
+  border-style:outset;
+}
+#again, #startOver {
+  font-size:1.7em;  
+  margin-left:30px;
+  margin-right:30px;
+  border-radius:25px;
+  border-width:3px;  
+  border-style:outset;
+}
+
+
